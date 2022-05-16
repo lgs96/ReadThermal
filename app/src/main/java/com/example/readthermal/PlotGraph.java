@@ -58,7 +58,7 @@ public class PlotGraph {
         YAxis leftAxis = mChart.getAxisLeft();
         leftAxis.setTextColor(Color.WHITE);
         if (index == 0) {
-            leftAxis.setAxisMaximum(70f);
+            leftAxis.setAxisMaximum(80f);
             leftAxis.setAxisMinimum(25f);
         }
         if (index == 1) {
@@ -106,7 +106,7 @@ public class PlotGraph {
         // To show values of each point
         set.setDrawValues(false);
         set.setDrawCircles(false);
-        set.enableDashedLine(index*10, index*10, index*10);
+        set.enableDashedLine(index*2, index*2, index*2);
 
         return set;
     }
@@ -138,7 +138,7 @@ public class PlotGraph {
             mChart.notifyDataSetChanged();
 
             // limit the number of visible entries
-            mChart.setVisibleXRangeMaximum(300);
+            mChart.setVisibleXRangeMaximum(500);
 
             // move to the latest entry
             mChart.moveViewToX(data.getEntryCount());
