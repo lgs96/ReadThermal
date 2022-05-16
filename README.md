@@ -2,7 +2,7 @@
 
 # How to use
 1. Get super user administration.
-2. Start to log.
+2. Start the logging.
 3. There are three graphs, which plot temperature, cooling state, and CPU frequency respectively.
 4. Stop and save the log.
 
