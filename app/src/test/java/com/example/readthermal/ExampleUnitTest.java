@@ -1,4 +1,4 @@
-package com.example.readtxt;
+package com.example.readthermal;
 
 import org.junit.Test;
 
