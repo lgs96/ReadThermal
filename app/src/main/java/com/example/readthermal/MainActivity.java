@@ -126,9 +126,11 @@ public class MainActivity extends AppCompatActivity {
                 mPlotGraph_cpu = new PlotGraph(mCPUGraph, CPU_ID);
 
                 mTraceHandler.post(new StartTrace());
+                break;
             case R.id.button_stop:
                 // Stop tracing
                 StopTrace();
+                break;
         }
     };
 
